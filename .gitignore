@@ -3,6 +3,8 @@
 log/*.log
 tmp/**
 node_modules/
+bower_components/
 .sass-cache
 css/reveal.min.css
 js/reveal.min.js
+.grunt/

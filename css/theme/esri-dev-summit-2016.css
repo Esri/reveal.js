@@ -10,8 +10,13 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #3F3F3F;
-  background-color: #3F3F3F; }
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0099cc+0,003366+100 */
+  background: #0099cc; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #0099cc 0%, #003366 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #0099cc 0%,#003366 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #0099cc 0%,#003366 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099cc', endColorstr='#003366',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
 .reveal {
   font-family: "Lato", sans-serif;

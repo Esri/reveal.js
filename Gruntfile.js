@@ -134,7 +134,11 @@ module.exports = function(grunt) {
 			markdown: {
 				files: [ './*.md' ]
 			}
-		}
+		},
+
+    'gh-pages': {
+      src: ['**']
+    }
 
 	});
 
@@ -148,6 +152,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
 	grunt.loadNpmTasks( 'grunt-autoprefixer' );
 	grunt.loadNpmTasks( 'grunt-zip' );
+	grunt.loadNpmTasks('grunt-gh-pages');
 
 	// Default task
 	grunt.registerTask( 'default', [ 'css', 'js' ] );
