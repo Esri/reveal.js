@@ -1,9 +1,7 @@
 {
-  "name": "reveal.js",
+  "name": "esri reveal.js templates",
   "version": "3.6.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://revealjs.com",
-  "subdomain": "revealjs",
+  "description": "reveal.js templates that look like official powerpoint templates for esri conferences",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
@@ -11,13 +9,12 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "John Gravois",
+    "email": "john@esri.com",
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/jgravois/esri-reveal-js.git"
   },
   "engines": {
     "node": ">=4.0.0"
