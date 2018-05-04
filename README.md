@@ -1,8 +1,8 @@
 # Esri reveal.js
 
-> reveal decks to look like the Esri templates
+> Esri branded reveal.js slidedeck templates
 
-A jumpstart for Esri staff that want their reveal decks to look like the templates that are distributed for PowerPoint.
+A jumpstart for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slidedeck template that matches the ones for PowerPoint.
 
 ![Project preview](img/project-preview.gif)
 
@@ -19,13 +19,13 @@ See: [reveal.js documentation](https://github.com/hakimel/reveal.js/blob/master/
 
 ## License
 
-Copyright (C) 2017 Hakim El Hattab, http://hakim.se
+Copyright (c) 2018 Esri
 
-reveal.js is MIT licensed;
+Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-> https://github.com/hakimel/reveal.js/blob/master/LICENSE
+> http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
