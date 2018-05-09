@@ -11,7 +11,7 @@ Live demos:
 * [2018 FedUC / DC DevSummit](https://esri.github.io/reveal.js/feduc-2018.html)
 * [2018 DevSummit template](https://esri.github.io/reveal.js/devsummit-2018.html)
 
-For archived older versions, please see [releases](https://github.com/esri/reveal-js/releases).
+For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
 ## Documentation
 
