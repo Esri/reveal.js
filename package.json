@@ -1,5 +1,5 @@
 {
-  "name": "esri reveal.js templates",
+  "name": "esri-reveal.js-templates",
   "version": "3.6.0",
   "description": "reveal.js templates that look like official powerpoint templates for esri conferences",
   "main": "js/reveal.js",
@@ -10,7 +10,7 @@
   },
   "author": {
     "name": "John Gravois",
-    "email": "john@esri.com",
+    "email": "john@esri.com"
   },
   "repository": {
     "type": "git",
