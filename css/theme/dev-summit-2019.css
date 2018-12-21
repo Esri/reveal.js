@@ -10,15 +10,17 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  /* http://colorzilla.com/gradient-editor/#0192ff+15,0192ff+15,6beac7+100 */
-  background: #0192ff;
+  /* http://colorzilla.com/gradient-editor/#28469c+0,28469c+20,0050a2+90,01509e+100 */
+  background: #28469c;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #0192ff 15%, #0192ff 15%, #6beac7 100%);
+  background: -moz-linear-gradient(top, #28469c 0%, #28469c 20%, #0050a2 90%, #01509e 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #0192ff 15%, #0192ff 15%, #6beac7 100%);
+  background: -webkit-linear-gradient(top, #28469c 0%, #28469c 20%, #0050a2 90%, #01509e 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #0192ff 15%, #0192ff 15%, #6beac7 100%);
+  background: linear-gradient(to bottom, #28469c 0%, #28469c 20%, #0050a2 90%, #01509e 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28469c', endColorstr='#01509e',GradientType=0 );
+  /* IE6-9 */
   background-color: #fff; }
 
 .reveal {
