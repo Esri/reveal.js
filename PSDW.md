@@ -45,7 +45,7 @@
 
 ---
 
-<!-- .slide: data-background="./img/2019/psdw/bg-5.png" -->
+<!-- .slide: data-background="./img/2019/psdw/bg-1.png" -->
 
 ## Headline
 
@@ -54,5 +54,3 @@
 <aside class="notes">
   talking points.
 </aside>
-
----
