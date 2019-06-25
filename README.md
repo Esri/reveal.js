@@ -9,7 +9,6 @@ A jumpstart for folks that want to give a presentation using [reveal.js](https:/
 Live demos:
 
 * [2019 DevSummit template](https://esri.github.io/reveal.js/devsummit-2019.html)
-* [2018 FedUC / DC DevSummit](https://esri.github.io/reveal.js/feduc-2018.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
