@@ -171,8 +171,8 @@ module.exports = grunt => {
 
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-contrib-nodeunit');
+	// grunt.loadNpmTasks('grunt-contrib-clean');
+	// grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
 	// Default task
 	grunt.registerTask( 'default', [ 'css', 'js' ] );
