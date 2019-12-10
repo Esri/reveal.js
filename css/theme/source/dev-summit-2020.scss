@@ -13,7 +13,6 @@
 // ---------------------------------------------
 
 
-
 // Include theme-specific fonts
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
@@ -21,19 +20,19 @@
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Lato', sans-serif;
 $mainColor: #fff;
-$headingFont: 'Lato', Impact, sans-serif;
+$headingFont: 'Lato', sans-serif;
 $headingColor: #fff;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: #fff;
 
 @mixin gradient-bg() {
-  /* https://colorzilla.com/gradient-editor/#1d3278+0,183988+20,104db4+90,0e53c1+100 */
-  background: #1d3278; /* Old browsers */
-  background: -moz-linear-gradient(45deg, #1d3278 0%, #183988 20%, #104db4 90%, #0e53c1 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #1d3278 0%,#183988 20%,#104db4 90%,#0e53c1 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #1d3278 0%,#183988 20%,#104db4 90%,#0e53c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3278', endColorstr='#0e53c1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* https://colorzilla.com/gradient-editor/#863fe4+0,1c0e9b+100 */
+  background: #863fe4; /* Old browsers */
+  background: -moz-linear-gradient(left,  #863fe4 0%, #1c0e9b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #863fe4 0%,#1c0e9b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #863fe4 0%,#1c0e9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#863fe4', endColorstr='#1c0e9b',GradientType=1 ); /* IE6-9 */
 }
 
 // Background generator
@@ -41,18 +40,6 @@ $backgroundColor: #fff;
   @include gradient-bg()
 }
 
-// to remove the default border and background around images that reveal.js provides, uncomment the following:
-// .reveal .slides section img {
-//   border: 0px;
-//   background: none;
-//   box-shadow: none;
-// }
-
-section.has-light-background {
-	&, h1, h2, h3, h4, h5, h6 {
-		color: #222;
-	}
-}
 
 $linkColor: rgba(192, 232, 255, 1);
 $linkColorHover: lighten( $linkColor, 20% );
