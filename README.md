@@ -1,15 +1,16 @@
 # Esri reveal.js
 
-> Esri branded reveal.js slidedeck templates
+> Esri branded reveal.js slide deck templates
 
-A jumpstart for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slidedeck template that matches the ones for PowerPoint.
+A jumpstart for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slide deck template that matches the ones for PowerPoint.
 
 ![Project preview](img/project-preview.gif)
 
 Live demos:
 
-* [2020 DevSummit template](https://esri.github.io/reveal.js/devsummit-2020.html)
-* [2020 Fed GIS template](https://esri.github.io/reveal.js/fed-2020.html)
+* [2020 UC - Tech Session template](https://esri.github.io/reveal.js/uc-2020-tech-session.html)
+* [2020 UC - Pre-Conference Seminar template](https://esri.github.io/reveal.js/uc-2020-pre-conference-seminar.html)
+* [2020 UC - User Presentation template](https://esri.github.io/reveal.js/uc-2020-user-presentation.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
