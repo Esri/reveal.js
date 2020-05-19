@@ -28,8 +28,9 @@
 				<section>
 					<h1>Slide 1</h1>
 					<ul>
-						<li><a href="fed-2020.html">Fed GIS Conference 2020</a></li>
-						<li><a href="devsummit-2020.html">Dev Summit 2020</a></li>
+						<li><a href="uc-2020-tech-session.html">UC 2020 - Esri Tech Session</a></li>
+						<li><a href="uc-2020-pre-conference-seminar.html">UC 2020 - Pre-conference Seminar</a></li>
+						<li><a href="uc-2020-user-presentation.html">UC 2020 - User Presentation</a></li>
 						<li><a href="demo.html">Reveal.js Demo</a></li>
 					</ul>
 				</section>
@@ -44,11 +45,12 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				hash: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
 		</script>
