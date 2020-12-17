@@ -8,9 +8,7 @@ A jumpstart for folks that want to give a presentation using [reveal.js](https:/
 
 Live demos:
 
-* [2020 UC - Tech Session template](https://esri.github.io/reveal.js/uc-2020-tech-session.html)
-* [2020 UC - Pre-Conference Seminar template](https://esri.github.io/reveal.js/uc-2020-pre-conference-seminar.html)
-* [2020 UC - User Presentation template](https://esri.github.io/reveal.js/uc-2020-user-presentation.html)
+* ...
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
