@@ -4,11 +4,10 @@
 
 A jumpstart for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slide deck template that matches the ones for PowerPoint.
 
-[![Project preview](img/project-preview.gif)](https://esri.github.io/reveal.js/dev-summit-2021.html)
-
 Live demos:
 
-* [2021 Dev Summit](https://esri.github.io/reveal.js/dev-summit-2021.html)
+* [2021 UC - Tech Session](https://esri.github.io/reveal.js/uc-2021-tech-session.html)
+* [2021 UC - User Presentation](https://esri.github.io/reveal.js/uc-2021-user-presentation.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
