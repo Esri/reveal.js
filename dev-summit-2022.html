@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Esri Dev Summit 2022</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+    <!-- Override the Reveal theme varables: -->
+    <!-- https://github.com/hakimel/reveal.js/blob/master/css/theme/template/exposer.scss -->
+    <style type="text/css">
+      :root {
+        /* Color from slides */
+        --r-background-color: #01114f; 
+
+        /* Main text color */
+        --r-main-color: #fff;
+
+        /* Arial font is recommended */
+        --r-heading-font: Arial,Helvetica Neue,Helvetica,sans-serif;
+        --r-main-font: Arial,Helvetica Neue,Helvetica,sans-serif;
+
+        /* For consistency with the template: */
+        --r-heading-font-weight: normal;
+        --r-heading-text-transform: none;
+        --r-heading-text-shadow: none;
+
+        /* Section subheader color per theme */
+        --r-section-subhead-color: #00EC86;
+      }
+    </style>
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="img/2022/dev-summit/bg-1.png" data-background-size="cover">
+					<h1 style="text-align: left; font-size: 80px;">Presentation Title</h1>
+					<p style="text-align: left; font-size: 30px; color: var(--r-section-subhead-color);">Name(s)</p>
+					<p style="text-align: left; font-size: 30px;">Slides: <a href="http://bit.ly/abc123"><code>http://bit.ly/abc123</code></a></p>
+        </section>
+
+        <section data-markdown data-background="img/2022/dev-summit/bg-2.png">
+					<textarea data-template>
+						## Headline Here 2
+
+						* Bullet [points here](http://hakim.se).
+					</textarea>
+        </section>
+        
+        <section data-auto-animate data-background="img/2022/dev-summit/bg-3.png">
+					<h2 data-id="code-title">Code Example</h2>
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						import React, { useState } from 'react';
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    ...
+						  );
+						}
+					</code></pre>
+				</section>
+
+				<section data-background="img/2022/dev-summit/bg-4.png">
+					<h1 style="text-align: left; font-size: 48px;">Section Header</h1>
+					<p style="text-align: left; font-size: 24px; color: var(--r-section-subhead-color);">Section Subhead</p>
+        </section>
+
+        <section data-background="img/2022/dev-summit/bg-5.png">
+					<h1 style="text-align: left; font-size: 48px;">Section Header</h1>
+					<p style="text-align: left; font-size: 24px; color: var(--r-section-subhead-color);">Section Subhead</p>
+        </section>
+
+        <section data-background="img/2022/dev-summit/bg-6.png">
+					<h1 style="text-align: right; font-size: 48px;">Section Header</h1>
+					<p style="text-align: right; font-size: 24px; color: var(--r-section-subhead-color);">Section Subhead</p>
+        </section>
+
+        <!-- FEEDBACK SLIDE: -->
+        <section  data-markdown data-background="img/2022/dev-summit/bg-7.png">
+					<textarea data-template>
+            Please provide your feedback for this session by clicking on the session survey link directly below the video.
+          </textarea>
+				</section>
+
+        <!-- ESRI LOGO SLIDE: -->
+        <section data-background="img/2022/dev-summit/bg-8.png">
+          <!-- <img src="img/esri-science-logo-white.png" /> -->
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
