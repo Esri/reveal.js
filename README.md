@@ -8,8 +8,8 @@ A jumpstart for folks that want to give a presentation using [reveal.js](https:/
 
 Live demos:
 
-* [2022 Federal GIS Conference](https://esri.github.io/reveal.js/fed-2022.html)
-* [2022 Developer Summit](https://esri.github.io/reveal.js/devsummit-2022.html)
+* [2022 Federal GIS Conference](https://esri.github.io/reveal.js/fed-gis-2022.html)
+* [2022 Developer Summit](https://esri.github.io/reveal.js/dev-summit-2022.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
