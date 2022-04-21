@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Esri User Conference 2022</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/white.css">
+
+  <!-- Override the Reveal theme variables: -->
+  <!-- https://github.com/hakimel/reveal.js/blob/master/css/theme/template/exposer.scss -->
+  <style type="text/css">
+    :root {
+      /* Color from slides */
+      --r-background-color: #fff;
+
+      /* Main text color */
+      --r-main-color: #000;
+
+      /* Arial font is recommended */
+      --r-heading-font: Arial, Helvetica Neue, Helvetica, sans-serif;
+      --r-main-font: Arial, Helvetica Neue, Helvetica, sans-serif;
+
+      /* For consistency with the template: */
+      --r-heading-font-weight: normal;
+      --r-heading-text-transform: none;
+      --r-heading-text-shadow: none;
+
+      /* Section subheader color per theme */
+      --r-section-subhead-color: #005C91;
+    }
+  </style>
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-background="img/2022/uc/preconference-seminars/01.png" data-background-size="cover">
+        <h1 style="text-align: right; font-size: 60px; margin-top: 35%; color: #fff;">Presentation Title</h1>
+        <p style="text-align: right; font-size: 30px; color: #94E7FF;">Name(s)</p>
+        <p style="text-align: right; font-size: 30px;  color: #94E7FF;">Slides: <a
+            href="http://bit.ly/abc123"><code>http://bit.ly/abc123</code></a></p>
+      </section>
+
+      <section data-markdown data-background="img/2022/uc/preconference-seminars/02.png">
+        <textarea data-template>
+						## Section Title
+
+						Name of Presenters
+					</textarea>
+      </section>
+
+
+      <section data-markdown data-background="img/2022/uc/preconference-seminars/03.png">
+        <textarea data-template>
+          ## Headline Here
+
+          * Bullet [points here](http://hakim.se).
+					</textarea>
+      </section>
+
+      <section data-auto-animate data-background="img/2022/uc/preconference-seminars/03.png">
+        <h2 data-id="code-title">Code Example</h2>
+        <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						import React, { useState } from 'react';
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    ...
+						  );
+						}
+					</code></pre>
+      </section>
+
+      <section data-background="img/2022/uc/preconference-seminars/04.png">
+        <h2 style="text-align: left;">Section Header</h2>
+        <p style="text-align: left; color: var(--r-section-subhead-color);">Section Subhead</p>
+      </section>
+
+
+      <!-- FEEDBACK SLIDE: -->
+      <section data-markdown data-background="img/2022/uc/preconference-seminars/05.png"></section>
+
+      <!-- ESRI LOGO SLIDE: -->
+      <section data-markdown data-background="img/2022/uc/preconference-seminars/06.png"></section>
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
