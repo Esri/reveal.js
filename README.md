@@ -10,9 +10,7 @@ A jumpstart for folks that want to give a presentation using [reveal.js](https:/
 
 Live demos:
 
-- [2022 User Conference - Technical Workshops](https://esri.github.io/reveal.js/uc-2022-technical-workshops.html)
-- [2022 User Conference - Pre-conference Seminars](https://esri.github.io/reveal.js/uc-2022-preconference-seminars.html)
-- [2022 User Conference - User Presentations](https://esri.github.io/reveal.js/uc-2022-user-presentations.html)
+- [Federal GIS Conference 2023](https://esri.github.io/reveal.js/fed-gis-2023.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
