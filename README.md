@@ -2,17 +2,16 @@
 
 > Esri branded reveal.js slide deck templates
 
-A jumpstart for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slide deck template that matches the ones for PowerPoint.
+A jump-start for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slide deck template that matches the ones for PowerPoint.
 
 <p align="center">
-  <a href="https://esri.github.io/reveal.js/uc-2022-technical-workshops.html"><img src="img/project-preview.gif" alt="project preview" /></a>
+  <a href="https://esri.github.io/reveal.js/dev-summit-2023.html"><img src="img/project-preview.gif" alt="project preview" /></a>
 </p>
 
 Live demos:
 
-* [2022 User Conference - Technical Workshops](https://esri.github.io/reveal.js/uc-2022-technical-workshops.html)
-* [2022 User Conference - Pre-conference Seminars](https://esri.github.io/reveal.js/uc-2022-preconference-seminars.html)
-* [2022 User Conference - User Presentations](https://esri.github.io/reveal.js/uc-2022-user-presentations.html)
+- [Federal GIS Conference 2023](https://esri.github.io/reveal.js/fed-gis-2023.html)
+- [Developer Summit 2023](https://esri.github.io/reveal.js/dev-summit-2023.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
@@ -24,7 +23,7 @@ See: [reveal.js documentation](https://github.com/hakimel/reveal.js/blob/master/
 
 ## License
 
-Copyright (c) 2018 Esri
+Copyright (c) 2022 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
