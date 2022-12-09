@@ -10,9 +10,9 @@ A jumpstart for folks that want to give a presentation using [reveal.js](https:/
 
 Live demos:
 
-* [2022 User Conference - Technical Workshops](https://esri.github.io/reveal.js/uc-2022-technical-workshops.html)
-* [2022 User Conference - Pre-conference Seminars](https://esri.github.io/reveal.js/uc-2022-preconference-seminars.html)
-* [2022 User Conference - User Presentations](https://esri.github.io/reveal.js/uc-2022-user-presentations.html)
+- [2022 User Conference - Technical Workshops](https://esri.github.io/reveal.js/uc-2022-technical-workshops.html)
+- [2022 User Conference - Pre-conference Seminars](https://esri.github.io/reveal.js/uc-2022-preconference-seminars.html)
+- [2022 User Conference - User Presentations](https://esri.github.io/reveal.js/uc-2022-user-presentations.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
@@ -24,7 +24,7 @@ See: [reveal.js documentation](https://github.com/hakimel/reveal.js/blob/master/
 
 ## License
 
-Copyright (c) 2018 Esri
+Copyright (c) 2022 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
