@@ -5,13 +5,13 @@
 A jump-start for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slide deck template that matches the ones for PowerPoint.
 
 <p align="center">
-  <a href="https://esri.github.io/reveal.js/dev-summit-2023.html"><img src="img/project-preview.gif" alt="project preview" /></a>
+  <a href="https://esri.github.io/reveal.js/uc-2023.html"><img src="img/project-preview.gif" alt="project preview" /></a>
 </p>
 
 Live demos:
 
-- [Federal GIS Conference 2023](https://esri.github.io/reveal.js/fed-gis-2023.html)
-- [Developer Summit 2023](https://esri.github.io/reveal.js/dev-summit-2023.html)
+- [UC 2023](https://esri.github.io/reveal.js/uc-2023.html)
+- [UC 2023 (user presentation)](https://esri.github.io/reveal.js/uc-2023-user-presentations.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
@@ -29,7 +29,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-> http://www.apache.org/licenses/LICENSE-2.0
+> <http://www.apache.org/licenses/LICENSE-2.0>
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
