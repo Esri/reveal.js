@@ -15,7 +15,7 @@ Live demos:
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
-For a visualization of all the template designs through the years, see [esri-reveal.js-history](https://gavinr.github.io/esri-reveal.js-history/)
+For a visualization of all the template designs through the years, see [esri-reveal.js-history](https://gavinr-maps.github.io/esri-reveal.js-history/)
 
 ## Documentation
 
