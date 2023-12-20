@@ -11,6 +11,7 @@ A jump-start for folks that want to give a presentation using [reveal.js](https:
 Live demos:
 
 - [Federal GIS Conference 2024](https://esri.github.io/reveal.js/fed-gis-2024.html)
+- [Dev Summit 2024](https://esri.github.io/reveal.js/dev-summit-2024.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
