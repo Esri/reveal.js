@@ -1,6 +1,6 @@
 {
   "name": "esri-reveal.js-templates",
-  "version": "5.0.2",
+  "version": "5.1.0",
   "description": "reveal.js templates that look like official PowerPoint templates for Esri conferences",
   "homepage": "https://github.com/esri/reveal.js",
   "subdomain": "revealjs",
