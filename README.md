@@ -5,13 +5,12 @@
 A jump-start for folks that want to give a presentation using [reveal.js](https://github.com/hakimel/reveal.js/) using a slide deck template that matches the ones for PowerPoint.
 
 <p align="center">
-  <a href="https://esri.github.io/reveal.js/dev-2025.html"><img src="img/project-preview.gif" alt="project preview" /></a>
+  <a href="https://esri.github.io/reveal.js/"><img src="img/project-preview.gif" alt="project preview" /></a>
 </p>
 
 Live demos:
 
-- [Federal GIS Conference 2025](https://esri.github.io/reveal.js/fed-2025.html)
-- [Developer and Technology Summit 2025](https://esri.github.io/reveal.js/dev-2025.html)
+- ...
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
