@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>Esri Federal GIS Conference</title>
+    <title>reveal.js</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
@@ -33,7 +33,7 @@
         --r-heading-text-shadow: none;
 
         /* Section subheader color per theme */
-        --r-section-subhead-color: #5ed9ff;
+        --r-section-subhead-color: #82f6ff;
       }
     </style>
 
@@ -44,10 +44,12 @@
     <div class="reveal">
       <div class="slides">
         <section
-          data-background="img/2025/fed/1.png"
+          data-background="images/2025/uc/01.png"
           data-background-size="contain"
         >
-          <h1 style="text-align: left; font-size: 60px">Presentation Title!</h1>
+          <h1 style="text-align: left; font-size: 60px; max-width: 600px">
+            Presentation Title!
+          </h1>
           <p
             style="
               text-align: left;
@@ -63,7 +65,7 @@
           </p>
         </section>
 
-        <section data-markdown data-background="img/2025/fed/2.png">
+        <section data-markdown data-background="images/2025/uc/02.png">
           <script type="text/template">
             ## Content Headline
 
@@ -73,7 +75,14 @@
           </script>
         </section>
 
-        <section data-markdown data-background="img/2025/fed/2.png">
+        <section data-background="images/2025/uc/05.png">
+          <h2 style="text-align: left">Section Title</h2>
+          <p style="text-align: left; color: var(--r-section-subhead-color)">
+            Demo Subtitle
+          </p>
+        </section>
+
+        <section data-markdown data-background="images/2025/uc/03.png">
           <script type="text/template">
             ## Content Headline
 
@@ -87,31 +96,24 @@
           </script>
         </section>
 
-        <section data-background="img/2025/fed/3.png">
-          <h2 style="text-align: left">Section Title</h2>
-          <p style="text-align: left; color: var(--r-section-subhead-color)">
-            Section Subtitle
-          </p>
-        </section>
-
-        <section data-background="img/2025/fed/4.png">
+        <section data-background="images/2025/uc/04.png">
           <h2 style="text-align: right">Demo Title</h2>
           <p style="text-align: right; color: var(--r-section-subhead-color)">
-            Demo Subtitle
+            Section Subtitle
           </p>
         </section>
 
         <!-- FEEDBACK SLIDE: -->
         <section
           data-markdown
-          data-background="img/2025/fed/5.png"
+          data-background="images/2025/uc/06.png"
           data-background-size="contain"
         ></section>
 
         <!-- ESRI LOGO SLIDE: -->
         <section
           data-markdown
-          data-background="img/2025/fed/6.png"
+          data-background="images/2025/uc/07.png"
           data-background-size="contain"
         ></section>
       </div>
@@ -127,12 +129,6 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
-        // This is the standard for the Esri event projectors - if it's not
-        // working correctly for you or not working great for printing,
-        // remove these two lines:
-        width: 1920,
-        height: 1080,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
