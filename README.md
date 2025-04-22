@@ -10,7 +10,7 @@ A jump-start for folks that want to give a presentation using [reveal.js](https:
 
 Live demos:
 
-- ...
+- [User Conference 2025](https://esri.github.io/reveal.js/uc-2025.html)
 
 For archived older versions, please see [releases](https://github.com/esri/reveal.js/releases).
 
