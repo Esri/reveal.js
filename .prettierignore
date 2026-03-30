@@ -1,0 +1,6 @@
+js/**/*.js
+plugin/**/*.js
+**/*.md
+test/**/*.html
+examples/**/*.md
+dist/**/*
