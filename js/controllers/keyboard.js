@@ -1,4 +1,4 @@
-import { enterFullscreen } from '../utils/util.js'
+import { enterFullscreen } from '../utils/util'
 
 /**
  * Handles all reveal.js keyboard interactions.
@@ -396,6 +396,12 @@ export default class Keyboard {
 				this.Reveal.overview.toggle();
 			}
 
+			event.preventDefault && event.preventDefault();
+		}
+		
+		// Enter to exit overview mode
+		else if (keyCode === 13 && this.Reveal.overview.isActive()) {
+			this.Reveal.overview.deactivate();
 			event.preventDefault && event.preventDefault();
 		}
 
